@@ -1,5 +1,9 @@
 # AngularBlobStorage
 
+ng build --prod
+docker build -t <name> .
+docker run --name <name> -d -p 8080:80 <image-name>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
 ## Development server
